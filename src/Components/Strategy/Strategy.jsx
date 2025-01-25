@@ -4,7 +4,7 @@ import strategy1 from "../../assets/Strategy1.png";
 import strategy2 from "../../assets/Strategy2.png";
 import strategy3 from "../../assets/Strategy3.png";
 import arrowright from "../../assets/arrow-right.png";
-import strategy_star from "../../assets/Strategy Star.png";
+import strategy_star from "../../assets/Strategy star.png";
 import strategy_coin from "../../assets/Strategy Coin.png";
 import strategy_flash from "../../assets/Strategy Flash.png";
 

@@ -1,0 +1,47 @@
+.channel {
+  width: 100%;
+  min-height: 100vh;
+
+}
+.channel-all {
+  display: flex;
+}
+
+.arrow {
+  width: 90px;
+  height: 60px;
+  margin-top: 110px;
+  margin-left: 120px;
+}
+
+.song {
+  width: 360;
+  height: 260;
+}
+
+/* ------------ media query ----------- */
+
+@media (max-width: 850px) {
+  .channel-all {
+    display: block;
+  }
+
+  .arrow {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .channel-all {
+    display: block;
+  }
+
+  .arrow {
+    margin-top: 30px;
+  }
+
+  .song {
+    width: 359px;
+    height: 260px;
+  }
+}

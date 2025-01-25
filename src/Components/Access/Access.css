@@ -1,0 +1,138 @@
+.access {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 150px;
+}
+
+.access-div {
+  background-color: #fff0ec;
+  width: 1440px;
+  height: 768px;
+}
+
+.iphone {
+  width: 450.3px;
+  height: 770px;
+}
+
+.all-iphone {
+  display: flex;
+}
+
+.access-h1 {
+  max-width: 800px;
+  font-size: 48px;
+  color: #244d4d;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-align: center;
+  margin-left: 16%;
+  margin-top: 120px;
+  text-align: left;
+}
+
+.all-tick-p {
+  display: flex;
+}
+
+.tick {
+  margin-left: 16%;
+  margin-top: 30px;
+  width: 24px;
+  height: 24px;
+}
+
+.access-p {
+  max-width: 700px;
+  font-size: 16px;
+  color: #2c2c2c;
+  opacity: 50%;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.all-img {
+  display: flex;
+  margin-top: 100px;
+}
+
+.appstore-access {
+  width: 215.01px;
+  height: 72px;
+  margin-left: 16%;
+}
+
+.googleplay-access {
+  width: 242.63px;
+  height: 72px;
+  margin-left: 50px;
+}
+
+/* ------------ media query ----------- */
+
+@media (max-width: 850px) {
+}
+
+@media (max-width: 650px) {
+  .access-div {
+    background-color: #fff0ec;
+    width: 355px;
+    height: 563px;
+    margin-top: -120px;
+  }
+  .all-iphone {
+    display: block;
+  }
+
+  .iphone {
+    width: 300.82px;
+    margin-left: 30px;
+    height: 548px;
+    margin-top: -70px;
+  }
+  .access-h1 {
+    max-width: 800px;
+    font-size: 32px;
+    color: #244d4d;
+    font-weight: 600;
+    line-height: 44.8px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .tick {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .access-p {
+    max-width: 700px;
+    font-size: 14px;
+    color: #2c2c2c;
+    opacity: 50%;
+    opacity: 150px;
+    font-weight: 400;
+    line-height: 23.8px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .appstore-access {
+    margin-left: 20px;
+    width: 146px;
+    height: 49px;
+  }
+
+  .googleplay-access {
+    width: 146px;
+    height: 46px;
+    margin-left: 25px;
+  }
+
+  .all-img {
+    display: flex;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,155 @@
+.favapps {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.favapps-div {
+  width: 1200px;
+  background: linear-gradient(90deg, #ff1d6a -3.25%, #ff6e2e 101.19%);
+  height: 180px;
+  border-radius: 24px;
+}
+
+.logo-pod {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.favp {
+  max-width: 700px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 34px;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+.allfavdiv {
+  display: flex;
+}
+
+.arrowpod {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.app-h1 {
+  max-width: 800px;
+  font-size: 48px;
+  color: #244d4d;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-align: center;
+  margin-left: 16%;
+  margin-top: 120px;
+}
+
+.app-img {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+/* ------------ media query ----------- */
+
+@media (max-width: 850px) {
+  .favapps-div {
+    width: 327px;
+    height: 418px;
+    margin-top: 100px;
+  }
+
+  .logo-pod {
+    width: 142px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 70px;
+  }
+
+  .favp {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .arrowpod {
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+
+  .allfavdiv {
+    display: block;
+  }
+
+  .app-h1 {
+    font-size: 32px;
+    color: #244d4d;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .app-img {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 650px) {
+  .favapps-div {
+    width: 327px;
+    height: 418px;
+    margin-left: -20px;
+    margin-top: -250px;
+  }
+
+  .logo-pod {
+    width: 142px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 70px;
+  }
+
+  .favp {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .arrowpod {
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+
+  .allfavdiv {
+    display: block;
+  }
+
+  .app-h1 {
+    font-size: 32px;
+    color: #244d4d;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 5px;
+  }
+
+  .app-img {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 80px;
+  }
+}
